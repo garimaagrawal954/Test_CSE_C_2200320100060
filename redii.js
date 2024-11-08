@@ -1,4 +1,4 @@
-// Function to fetch and display GitHub profiles
+
 async function fetchProfiles() {
     const profileList = document.getElementById("profileList");
   
@@ -20,8 +20,6 @@ async function fetchProfiles() {
       </li>
     `).join("");
   }
-  
-  // Function to sort profiles alphabetically
   function sortProfiles() {
     const profileList = document.getElementById("profileList");
     const profiles = Array.from(profileList.getElementsByTagName("li"));
