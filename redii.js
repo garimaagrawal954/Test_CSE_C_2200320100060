@@ -31,5 +31,4 @@ async function fetchProfiles() {
   
   document.getElementById("sortButton").addEventListener("click", sortProfiles);
   
-  // Fetch profiles on page load
   fetchProfiles();
